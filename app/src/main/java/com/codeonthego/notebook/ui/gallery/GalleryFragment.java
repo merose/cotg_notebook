@@ -2,17 +2,14 @@ package com.codeonthego.notebook.ui.gallery;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
-
-import com.codeonthego.notebook.databinding.FragmentGalleryBinding;
+import javax.swing.text.View;
 
 public class GalleryFragment extends Fragment {
 
@@ -35,7 +32,7 @@ public class GalleryFragment extends Fragment {
         view.setLayoutParams(new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.MATCH_PARENT
-        );
+        ));
         view.setOrientation(LinearLayout.LayoutParams.VERTICAL);
 
         var editText = new EditText(this);

@@ -9,7 +9,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
-import javax.swing.text.View;
 
 public class GalleryFragment extends Fragment {
 
@@ -28,14 +27,14 @@ public class GalleryFragment extends Fragment {
 //        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
 //        return root;
 
-        view = new LinearLayout(this);
+        view = new LinearLayout(getContext());
         view.setLayoutParams(new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.MATCH_PARENT
         ));
         view.setOrientation(LinearLayout.LayoutParams.VERTICAL);
 
-        var editText = new EditText(this);
+        var editText = new EditText(getContext());
         editText.setText("hello, world", TextView.BufferType.EDITABLE);
         view.addView(editText);
     }

@@ -38,6 +38,8 @@ public class GalleryFragment extends Fragment {
         var editText = new EditText(getContext());
         editText.setText("hello, world", TextView.BufferType.EDITABLE);
         view.addView(editText);
+
+        return view;
     }
 
     @Override

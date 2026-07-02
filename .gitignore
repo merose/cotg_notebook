@@ -1,4 +1,10 @@
+# CodeOnTheGo cached files
 .androidide
+
+# Eclipse project files
+.project
+.classpath
+.settings/
 
 ## Rest of file from CodeOnTheGo project template.
 

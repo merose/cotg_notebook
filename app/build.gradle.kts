@@ -4,7 +4,7 @@ import java.io.FileInputStream
 
 plugins {
     id("com.android.application") version "8.11.0" 
- 
+    id("eclipse")
 }
 
 val keystorePropsFile = rootProject.file("release.properties")

@@ -33,7 +33,7 @@ public class GalleryFragment extends Fragment {
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.MATCH_PARENT
         ));
-        view.setOrientation(LinearLayout.LayoutParams.VERTICAL);
+        view.setOrientation(LinearLayout.VERTICAL);
 
         var editText = new EditText(getContext());
         editText.setText("hello, world", TextView.BufferType.EDITABLE);

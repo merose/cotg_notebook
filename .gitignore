@@ -1,6 +1,9 @@
 # CodeOnTheGo cached files
 .androidide
 
+# Gradle installation
+gradle/
+
 # Eclipse project files
 .project
 .classpath
